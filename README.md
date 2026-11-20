@@ -135,3 +135,7 @@ Rebuild, reinstall and relaunch:
 - **"xcrun: error" or "swiftc: command not found".** The Command Line Tools are missing. Run `xcode-select --install`.
 - **Two icons in the menu bar.** That shouldn't happen: a second copy hands over to the running one and quits. If it does, run `pkill -x FocusUntil`, then open the app again.
 - **You turned Do Not Disturb off from Control Center.** The app can't see that and keeps counting down. At the end it just runs "off" again, which does no harm.
+
+## License
+
+[MIT](LICENSE): free to use, modify and share, including commercially. Keep the copyright notice.
