@@ -1,0 +1,9 @@
+# macOS
+.DS_Store
+
+# Build output (build.sh builds in ~/Library/Caches, this is just in case)
+build/
+
+# Signed shortcuts embed a signing certificate tied to the signer's Apple account.
+# Generate them locally with ./install-shortcuts.sh instead.
+shortcuts/*.shortcut
